@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/icon.png">
+    <link rel="stylesheet" href="/style.css">
+    <title>Rudresh Rajvansh - Student</title>
+     <style>
+        .home{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            align-content: space-around;
+            color:white;
+            min-height: 80vh;
+            min-width: 80vw;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            flex-wrap: wrap;
+        }
+        .greetingText h1{
+            font-size: 3rem;
+            line-height: 1.2;
+        }
+        .greetingText span{
+            color:#3B82F6;
+        }
+        #change{
+            display: block;
+            min-width: 400px;
+        }
+
+        .welcomeImg img{
+            border-radius: 20px;
+            filter: drop-shadow(0 0 15px #4c6868);
+        }
+    </style>
+</head>
+<body>
+    <!--Navigation Area-->
+   <div class="navigation">
+    <nav>
+        <a href="/pages/home.html" class="active nav">Home</a>
+        <a href="/pages/about.html" class="nav">About Me</a>
+        <a href="/pages/projects.html" class="nav">Projects</a>
+        <a href="/pages/contact.html" class="nav">Contact Me</a>
+    </nav>
+   </div>
+
+   <!--Main Content Area-->
+   <div class="main" id="main">
+        <div class="home">
+        <div class="greetingText">
+            <h1>
+                Hello,<br>
+                I am<br><span id="change">Rudresh Rajvansh</span>
+            </h1>
+        </div>
+        <div class="welcomeImg">
+            <img src="/assets/mainImg.png"  alt="Developer Pic"  height="350px">
+        </div>
+    </div>
+   </div>
+
+   <!--Footer Section-->
+    <div class="footer">
+        <footer>
+              <ul>
+    <li>
+        <a href="https://www.linkedin.com/in/RudreshRajvansh">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0,0,256,256" fill="currentColor">
+                <g fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M41,4h-32c-2.76,0 -5,2.24 -5,5v32c0,2.76 2.24,5 5,5h32c2.76,0 5,-2.24 5,-5v-32c0,-2.76 -2.24,-5 -5,-5zM17,20v19h-6v-19zM11,14.47c0,-1.4 1.2,-2.47 3,-2.47c1.8,0 2.93,1.07 3,2.47c0,1.4 -1.12,2.53 -3,2.53c-1.8,0 -3,-1.13 -3,-2.53zM39,39h-6c0,0 0,-9.26 0,-10c0,-2 -1,-4 -3.5,-4.04h-0.08c-2.42,0 -3.42,2.06 -3.42,4.04c0,0.91 0,10 0,10h-6v-19h6v2.56c0,0 1.93,-2.56 5.81,-2.56c3.97,0 7.19,2.73 7.19,8.26z"></path></g></g>
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a href="https://www.github.com/RudreshRajvansh">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a href="https://www.leetcode.com/u/RudreshRajvansh">
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" height="18" width="18" fill="currentColor">
+                <path d="M13.483 0a1.374 1.374 0 0 0 -0.961 0.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0 -1.209 2.104 5.35 5.35 0 0 0 -0.125 0.513 5.527 5.527 0 0 0 0.062 2.362 5.83 5.83 0 0 0 0.349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193 0.039 0.038c2.248 2.165 5.852 2.133 8.063 -0.074l2.396 -2.392c0.54 -0.54 0.54 -1.414 0.003 -1.955a1.378 1.378 0 0 0 -1.951 -0.003l-2.396 2.392a3.021 3.021 0 0 1 -4.205 0.038l-0.02 -0.019 -4.276 -4.193c-0.652 -0.64 -0.972 -1.469 -0.948 -2.263a2.68 2.68 0 0 1 0.066 -0.523 2.545 2.545 0 0 1 0.619 -1.164L9.13 8.114c1.058 -1.134 3.204 -1.27 4.43 -0.278l3.501 2.831c0.593 0.48 1.461 0.387 1.94 -0.207a1.384 1.384 0 0 0 -0.207 -1.943l-3.5 -2.831c-0.8 -0.647 -1.766 -1.045 -2.774 -1.202l2.015 -2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0 -1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38 -1.382 1.38 1.38 0 0 0 -1.38 -1.382z" stroke-width="1"></path>
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a href="https://codeforces.com/profile/RudreshRajvansh">
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" height="20" width="18" fill="currentColor">
+                <path d="M4.5 7.5C5.328 7.5 6 8.172 6 9v10.5c0 0.828 -0.672 1.5 -1.5 1.5h-3C0.673 21 0 20.328 0 19.5V9c0 -0.828 0.673 -1.5 1.5 -1.5h3zm9 -4.5c0.828 0 1.5 0.672 1.5 1.5v15c0 0.828 -0.672 1.5 -1.5 1.5h-3c-0.827 0 -1.5 -0.672 -1.5 -1.5v-15c0 -0.828 0.673 -1.5 1.5 -1.5h3zm9 7.5c0.828 0 1.5 0.672 1.5 1.5v7.5c0 0.828 -0.672 1.5 -1.5 1.5h-3c-0.828 0 -1.5 -0.672 -1.5 -1.5V12c0 -0.828 0.672 -1.5 1.5 -1.5h3z" stroke-width="1"></path>
+            </svg>
+        </a>
+    </li>
+</ul>
+            <p class="bottom">Made with ❤️ by Rudresh Rajvansh</p>
+</footer>
+    </div>
+    <!--Script File-->
+    <script src="/script.js"></script>
+</body>
+</html>
